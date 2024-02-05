@@ -1,0 +1,205 @@
+{
+  "Abobora": {
+    "Companheiras": "Alface, Brocolis, Capuchinha, Couve-flor, Ervilha, Girassol, Milho, Pepino, Tomate",
+    "Antagonicas": "Brocolis, Couve-Flor",
+    "Controle": "Capuchinha, Tagete",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Alecrim": {
+    "Companheiras": "Alho, Cebola, Cenoura, Couve-flor, Ervilha, Feijao-Vagem, Morango, Pepino, Pimenta, Tomate",
+    "Antagonicas": "",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Alface": {
+    "Companheiras": "Beterraba, Brocolis, Cebola, Cenoura, Coentro, Couve, Ervilha, Espinafre, Morango, Pepino, Pimenta, Tomate",
+    "Antagonicas": "",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Alho": {
+    "Companheiras": "Alecrim, Cenoura, Cebola, Couve-flor, Ervilha, Espinafre, Morango, Pepino, Pimenta, Tomate",
+    "Antagonicas": "Feijao-Vagem, Ervilha",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Alho-poro": {
+    "Companheiras": "Alface, Beterraba, Cebola, Cenoura, Ervilha, Espinafre, Morango, Pepino, Tomate",
+    "Antagonicas": "Feijao-Vagem, Ervilha",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Berinjela": {
+    "Companheiras": "Alecrim, Brocolis, Feijao-Vagem, Pimenta, Tomate",
+    "Antagonicas": "",
+    "Controle": "Tagete, Tomilho",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Brocolis": {
+    "Companheiras": "Abobora, Alface, Berinjela, Cebola, Couve-flor, Ervilha, Girassol, Melão, Pepino, Tomate",
+    "Antagonicas": "Morango, Pimenta, Tomate",
+    "Controle": "Oregano",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Capuchinha": {
+    "Companheiras": "Abobora, Alface, Brocolis, Couve-flor, Ervilha, Girassol, Melão, Pepino, Tomate",
+    "Antagonicas": "",
+    "Controle": "Abobora",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Cebola": {
+    "Companheiras": "Alecrim, Alface, Alho, Alho-poro, Brocolis, Cenoura, Couve-flor, Ervilha, Espinafre, Morango, Pepino, Pimenta, Tomate",
+    "Antagonicas": "Feijao-Vagem, Ervilha",
+    "Controle": "Tagete",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Cebolinha": {
+    "Companheiras": "Alface, Beterraba, Cenoura, Ervilha, Espinafre, Morango, Pepino, Tomate",
+    "Antagonicas": "Feijao-Vagem, Ervilha",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Cenoura": {
+    "Companheiras": "Alecrim, Alface, Alho, Cebola, Couve-flor, Ervilha, Espinafre, Morango, Pepino, Pimenta, Tomate",
+    "Antagonicas": "",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Coentro": {
+    "Companheiras": "Alface, Beterraba, Cenoura, Ervilha, Espinafre, Morango, Pepino, Tomate",
+    "Antagonicas": "",
+    "Controle": "Espinafre",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Couve-flor": {
+    "Companheiras": "Abobora, Alecrim, Brocolis, Cebola, Ervilha, Girassol, Melão, Pepino, Tomate",
+    "Antagonicas": "Abobora, Morango, Pimenta, Tomate",
+    "Controle": "Oregano",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Ervilha": {
+    "Companheiras": "Abobora, Alecrim, Alface, Alho, Alho-poro, Brocolis, Cenoura, Couve-flor, Espinafre, Morango, Pepino, Pimenta, Tomate",
+    "Antagonicas": "Alho, Alho poro, Cebola, Cebolinha",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Espinafre": {
+    "Companheiras": "Alface, Beterraba, Cebola, Cenoura, Coentro, Ervilha, Morango, Pepino, Tomate",
+    "Antagonicas": "",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Feijao-Vagem": {
+    "Companheiras": "Alecrim, Berinjela, Milho, Tomate",
+    "Antagonicas": "Alho, Alho poro, Cebola, Cebolinha, Pimenta, Tagete",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Girassol": {
+    "Companheiras": "Abobora, Brocolis, Capuchinha, Couve-flor, Ervilha, Melão, Pepino, Tomate",
+    "Antagonicas": "",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Manjericão": {
+    "Companheiras": "Alface, Beterraba, Cenoura, Ervilha, Espinafre, Morango, Pepino, Tomate",
+    "Antagonicas": "",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Melão": {
+    "Companheiras": "Brocolis, Capuchinha, Couve-flor, Girassol, Tomate",
+    "Antagonicas": "",
+    "Controle": "Capuchinha",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Milho": {
+    "Companheiras": "Abobora, Feijao-Vagem, Girassol, Tomate",
+    "Antagonicas": "",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Morango": {
+    "Companheiras": "Alecrim, Alface, Alho, Cebola, Espinafre, Pepino, Tomate",
+    "Antagonicas": "BrócoliCouve-Flor, ",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Oregano": {
+    "Companheiras": "Alface, Beterraba, Cenoura, Ervilha, Espinafre, Morango, Pepino, Tomate",
+    "Antagonicas": "Batata",
+    "Controle": "Brocolis, Couve-Flor",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Pepino": {
+    "Companheiras": "Abobora, Alecrim, Alface, Alho, Alho-poro, Brocolis, Cenoura, Couve-flor, Ervilha, Morango, Pimenta, Tomate",
+    "Antagonicas": "Batata",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Pimenta": {
+    "Companheiras": "Alecrim, Berinjela, Feijao-Vagem, Tomate",
+    "Antagonicas": "Brócolix, Couve-Flor, Feijao-Vagem ",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Salsa": {
+    "Companheiras": "Alface, Beterraba, Cenoura, Ervilha, Espinafre, Morango, Pepino, Tom",
+    "Antagonicas": "",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Salvia": {
+    "Companheiras": "Brocolis, Cenoura, Couve-Flor, ",
+    "Antagonicas": "Pepino",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Tagete": {
+    "Companheiras": "Melão, Tomate",
+    "Antagonicas": "Feijão Vargem",
+    "Controle": "Abobora, Beringela",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Tomate ": {
+    "Companheiras": "Alho, Alho poro, Beringela, Capuchinha, Cebola, Cebolinha, Feijao-Vagem, Melão, Oregano, Pepino, Pimenta, Tagete",
+    "Antagonicas": "Brocolis, Couve-Flor, Milho, ",
+    "Controle": "",
+    "Espacamento": "",
+    "Image": ""
+  },
+  "Tomilho": {
+    "Companheiras": "Brocolis, Couve-flor, Morango",
+    "Antagonicas": "",
+    "Controle": "Berimgela",
+    "Espacamento": "",
+    "Image": ""
+  }
+}
