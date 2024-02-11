@@ -1,24 +1,30 @@
 import React from 'react';
-import {FlatList, View, Image, Text} from 'react-native';
+import {
+  FlatList,
+  View,
+  Image,
+  Text,
+  useWindowDimensions,
+  ListRenderItem,
+} from 'react-native';
+import getStyles from './style';
 import {mockdb} from '../../utils/mockdb';
-
-// ... mockdb e importações de imagens aqui
+import {Vegetable} from '../../utils/Interfaces';
 
 const VegetableList = () => {
-  const renderItem = ({item}) => (
-    <View style={{flexDirection: 'row', alignItems: 'center', padding: 10}}>
-      <Image
-        source={item.image}
-        style={{width: 40, height: 40, marginRight: 10}}
-        resizeMode="contain"
-      />
-      <Text>{item.name}</Text>
+  const {width, height} = useWindowDimensions();
+  const styles = getStyles(width, height);
+
+  const renderItem: ListRenderItem<Vegetable> = ({item}) => (
+    <View style={styles.sectionContainer}>
+      <Image source={item.image} style={styles.image} resizeMode="contain" />
+      <Text style={styles.sectionTitle}>{item.name}</Text>
     </View>
   );
 
   return (
     <FlatList
-      data={mockdb}
+      data={mockdb as Vegetable[]}
       renderItem={renderItem}
       keyExtractor={item => item.name}
     />

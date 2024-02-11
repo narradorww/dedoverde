@@ -1,4 +1,4 @@
-interface Vegetable {
+export interface Vegetable {
   name: string;
   companions: string[];
   incompatibles: string[];
@@ -7,7 +7,7 @@ interface Vegetable {
   image: string;
 }
 
-interface Specifications {
+export interface Specifications {
   plantingSeason: string;
   harvest: string;
   lightRequirement: string;
