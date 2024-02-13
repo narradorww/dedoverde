@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {View, ScrollView, StyleSheet, ImageBackground} from 'react-native';
-import {TextInput} from 'react-native-paper';
+
+import {TextInput, Card} from 'react-native-paper';
 
 type GridProps = {
   maxColumns: number;
@@ -38,7 +39,7 @@ const GridInput: React.FC<GridProps> = ({maxColumns}) => {
   return (
     <View style={styles.container}>
       <TextInput
-        mode="outlined" // Adiciona borda ao TextInput
+        mode="flat" // Adiciona borda ao TextInput
         label="N de colunas (max 24)" // Usando 'label' em vez de 'placeholder'
         keyboardType="number-pad"
         onChangeText={text => {
@@ -50,7 +51,7 @@ const GridInput: React.FC<GridProps> = ({maxColumns}) => {
         style={styles.input}
       />
       <TextInput
-        mode="outlined"
+        mode="flat"
         label="Número de linhas"
         keyboardType="number-pad"
         onChangeText={text => {
@@ -61,6 +62,7 @@ const GridInput: React.FC<GridProps> = ({maxColumns}) => {
         }}
         style={styles.input}
       />
+
       <ScrollView horizontal={true}>
         <ScrollView
           style={styles.gridContainer}
@@ -79,7 +81,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   input: {
-    height: 40,
+    height: 60,
     marginBottom: 10,
     paddingHorizontal: 5,
   },
