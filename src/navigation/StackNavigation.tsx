@@ -9,7 +9,10 @@ const Stack = createNativeStackNavigator();
 const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator
+        screenOptions={{
+          headerShown: false, // Isso remove o header em todas as telas
+        }}>
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Garden" component={GardenScreen} />
       </Stack.Navigator>
