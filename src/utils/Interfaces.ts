@@ -19,3 +19,18 @@ export interface Specifications {
   plantSpacing: number;
   rowSpacing: number;
 }
+
+// Interfaces.ts
+export interface Seed {
+  name: string;
+  position: {
+    row: number;
+    column: number;
+  };
+}
+
+export interface GardenBedProps {
+  rows: number;
+  columns: number;
+  seeds: Seed[];
+}

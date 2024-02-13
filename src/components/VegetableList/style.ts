@@ -26,7 +26,6 @@ export default function getStyles(width: any, height: any) {
     image: {
       width: containerWidth * 0.6,
       height: containerHeight * 0.6,
-      marginRight: 10,
     },
   });
 }

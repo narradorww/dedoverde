@@ -1,15 +1,7 @@
 import React from 'react';
-import type {PropsWithChildren} from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
+import {SafeAreaView, StyleSheet, useColorScheme} from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import VegetableList from './src/components/VegetableList';
+import StackNavigation from './src/navigation/StackNavigation';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -19,15 +11,15 @@ function App(): React.JSX.Element {
   };
 
   return (
-    <SafeAreaView style={styles.backgroundStyle}>
-      <VegetableList />
+    <SafeAreaView style={[styles.backgroundStyle, backgroundStyle]}>
+      <StackNavigation />
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   backgroundStyle: {
-    backgroundColor: 'black',
+    flex: 1,
   },
 });
 
